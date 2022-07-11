@@ -1,0 +1,15 @@
+{
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "target": "es5",
+      "jsx": "react-jsx",
+      "experimentalDecorators": true,
+  },
+  "useDefineForClassFields": true,
+  "include": ["**/*.ts", "**/*.tsx", "images.d.ts"],
+}
